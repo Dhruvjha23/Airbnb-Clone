@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 29px;
+}
+
+li {
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#first {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#second {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Third {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    height: 280px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+pre {
+    line-height: 19px;
+    font-size: 14.5px;
+    font-weight: bold;
+    color: rgb(34, 32, 32);
+    /* text-shadow: 1.3px 1.3px rgb(136, 140, 143); */
+}
+
+footer {
+    margin-top: 85px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#footer {
+    color: #474747;
+    background-color:  #DADEDF;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 19px;
+}
+
+strong {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#copyright {
+    font-size: 18px;
+    margin: 15px;
+    text-align: center;
+    background-color:  #d0caca;
+    margin: 0px;
+    padding: 8px;
+}
+
+#link:hover {
+    /* border: 2px solid #aca9a9; */
+    background-color:#d0caca;
+    border-radius: 30px;
+    font-size: larger;
+}
+
+.card:hover {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+pre:hover {
+    font-size: 16px;
+     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
+     text-shadow: 0.5px 0.5px rgb(85, 240, 201);
+ }
+
+
+
+/* nav 2 */
+
+#ul-2 {
+    display: flex;
+    /* background-color: pink; */
+    width: 80%;
+    justify-content: space-between;
+    border: 1px solid #D4D4D4;
+    border-radius: 30px;
+    width: 80%;
+    padding-top: 7px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+#nav-2 {
+    margin-left: 260px;
+}
+
+.nav2 {
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+#search-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+em {
+    color: grey;
+}
+
+#nav-2a {
+    margin-left: 25px;
+}
+
+.nav2:hover {
+   text-shadow: 0.5px 0.5px rgb(240, 85, 137);
+}
+
+.pre2:hover {
+    font-size: 18px;
+    text-shadow: 0.5px 0.5px rgb(240, 85, 137);
+}
